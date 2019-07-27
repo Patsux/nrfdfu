@@ -11,7 +11,7 @@ endif()
 
 if (NOT TARGET ${NRFDFU_LIB_NAME})
 	utils_add_library(LIB_NAME ${NRFDFU_LIB_NAME}
-		SRCS nrfdfu_contr.c
+		SRCS src/nrfdfu_contr.c
 		PUBLIC_INCLUDE_DIRS include/
 		PRIVATE_INCLUDE_DIRS
 		LINK_LIBS
